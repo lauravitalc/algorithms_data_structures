@@ -13,3 +13,11 @@ function findNemo(array){
 
 findNemo(nemo);
 findNemo(large);
+
+const findNemo2 = array => {
+    array.forEach(fish => {
+        if(fish === 'nemo') {
+            console.log('found nemo!')
+        }
+    })
+}
