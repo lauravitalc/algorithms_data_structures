@@ -13,3 +13,5 @@ Readable, Memory, Speed.
 4. O(n!)
 5. Rules [1](https://github.com/lauravitalc/algorithms_data_structures/blob/main/big_o/rule_1_worst_case.js), [2](https://github.com/lauravitalc/algorithms_data_structures/blob/main/big_o/rule_2_remove_constants.js), [3](https://github.com/lauravitalc/algorithms_data_structures/blob/main/big_o/rule_2_different_terms_for_inputs.js), [4](https://github.com/lauravitalc/algorithms_data_structures/blob/main/big_o/rule_4_drop_non_dominants.js)
 6. [Space Complexity](https://github.com/lauravitalc/algorithms_data_structures/blob/main/big_o/space_complexity.js)
+
+## Data Structure: Arrays
