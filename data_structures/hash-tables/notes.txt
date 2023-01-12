@@ -1,0 +1,38 @@
+Objects é um tipo de hash table 
+backet.grapes = 1000
+
+key -> grapes -> mandamos pro hash function 
+
+
+Hash Function
+Função que gera um valor de comprimento fixo para cada entrada recebida
+md5 -> hash function
+https://www.miraclesalad.com/webtools/md5.php
+Fast data access
+
+idempotent 
+
+Hash Collisions 
+
+insert O(1)
+lookup O(1)
+delete O(1)
+search O(1)
+
+
+Arrays vs Hash Tables 
+
+
+---------------------------
+arrays       |  hash table
+----------------------------
+search O(n)  |   search O(1)
+lookup O(1)  |   lookup O(1)
+push O(1)    |   
+insert O(n)  |    insert O(1)
+delete O(n)  |    delete O(1)
+----------------------------
+
+
+https://blog.sessionstack.com/how-javascript-works-arrays-vs-hash-tables-ab769bf84a2d
+https://www.reddit.com/r/AskComputerScience/comments/a4xlw2/hash_table_vs_array/

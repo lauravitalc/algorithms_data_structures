@@ -23,3 +23,10 @@ console.log(strings);
 //splice -> adicionar algo no meio do array, (posição, o que queremos deletar, o que adicionar) O(n)
 strings.splice(2, 0, 'alien');
 console.log(strings);
+
+
+
+/*
+Good: Fast Lookups, Fast push/pop, ordered.
+Bad: Slow inserts, slow deletes.
+*/
