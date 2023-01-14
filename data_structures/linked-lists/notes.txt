@@ -1,0 +1,56 @@
+O que é?
+
+
+O primerio nó é o head, o último tail 
+Podemos ter sorted ou unsorted 
+
+
+
+----------------------------------------------------------------
+
+const basket = ['apples', 'grapes', 'pears'];
+
+linked list: apples -> grappes -> pears
+
+apples
+8947 --> grapes
+          8742 --> pears
+                    372 --> null
+                    
+----------------------------------------------------------------
+
+https://visualgo.net/en/list
+
+----------------------------------------------------------------
+
+Why?
+
+https://www.faceprep.in/data-structures/linked-list-vs-array/#:~:text=An%20array%20is%20a%20collection,not%20possible%20in%20linked%20lists.
+
+O linked list para percorrer é mais lento que o array, porém muito funcional quando inserir algo no meio do array e deletar
+
+
+prepend O(1)
+append O(1)
+lookup O(n)
+insert O(n)
+delete O(n)
+
+----------------------------------------------------------------
+
+let obj1 = {a:true};
+let obj2 = obj1; 
+Acima criamos um pointer, uma referência.
+
+obj1.a = 'booya';
+console.log(obj1); booya
+console.log(obj2); booya
+
+-
+
+obj1.a = 'booya';
+delete obj1; 
+console.log(obj1); erro aqui
+console.log(obj2); continua booya
+
+garbage colletion
