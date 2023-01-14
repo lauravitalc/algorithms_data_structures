@@ -1,3 +1,12 @@
+Fast lookups *
+Fast inserts
+Flexible keys
+
+* Arrumar as colisões 
+
+Unordered 
+Slow key iteration 
+
 Objects é um tipo de hash table 
 backet.grapes = 1000
 
@@ -36,3 +45,4 @@ delete O(n)  |    delete O(1)
 
 https://blog.sessionstack.com/how-javascript-works-arrays-vs-hash-tables-ab769bf84a2d
 https://www.reddit.com/r/AskComputerScience/comments/a4xlw2/hash_table_vs_array/
+
