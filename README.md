@@ -15,3 +15,12 @@ Readable, Memory, Speed.
 6. [Space Complexity](https://github.com/lauravitalc/algorithms_data_structures/blob/main/big_o/space_complexity.js)
 
 ## Data Structure: Arrays
+## Data Structure: Hash Tables
+## Data Structure: Linked Lists
+
+
+## Algorithms: Recursion 
+## Algorithms: Sorting
+
+
+

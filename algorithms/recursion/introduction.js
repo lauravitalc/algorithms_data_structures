@@ -36,3 +36,41 @@ console.log(incepction3());
 2. Identificar o caso recursivo.
 3. Chegar mais perto e retornar quando necessário. Usualmente terá 2 returns, para a base e pro recursivo.
 */
+
+
+/*
+RECURSIVE x INTERATIVE
+Recursivo é mais legivel, entretanto nem sempre a melhor opção.
+
+RECURSIVE
+pros: dry, readability
+cons: large stack
+
+INTERATIVE
+pros:
+cons: nem tão legivel
+
+
+
+TAIL CALL AUTOMAZATION
+https://2ality.com/2015/06/tail-call-optimization.html
+
+
+
+WHEN TO USE RECURSION?
+Toda vez que estamos usando tree, ou tornando algo em tree -> usar recursion.
+Divide and Conquer using Recursion.
+
+1. Divided into a number of subproblems that are smaller instances of the same problem.
+2. Each instance of the subproblem is identical in nature.
+3. The solutions of each subproblem can be combined to solve the problem at hand.
+
+
+https://stackoverflow.com/questions/105838/real-world-examples-of-recursion
+
+RECURSION:
+MERGE SORT
+QUICK SORT
+TREE TRAVERSAL
+GRAPH TRAVERSAL
+*/
