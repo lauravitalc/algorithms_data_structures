@@ -2,3 +2,27 @@ https://www.toptal.com/developers/sorting-algorithms
 
 
 https://www.bigocheatsheet.com/
+
+https://www.youtube.com/@AlgoRythmics
+
+Which short is the best?
+
+Insertion Sort - Usada com apenas alguns itens, pequenos, etc.
+Bubble Sort - Provavelmente nunca. Usada para fins educacionais para ensinar sort.
+Selection Sort - Provavelmente não usaremos. Usada para fins educacionais.
+Merge Sort - Rápido. Se você se preocupa com worst case cenarios, é o melhor. Não é bom se você se preocupa com space complexity.
+Quick Sort - Melhor que merge sort, mesma velocidade do merge, e menor space complexity. A desvantagem é o worst case, cuidado ao escolher.
+
+
+Comparison Sort
+
+Bubble Sort
+Insertion sort
+Selection sort
+Merge sort
+Quick Sort
+
+Non Comparison Sort 
+Só funcionam com números, com uma faixa de números, ex: 1 a 100
+Counting Sort 
+Radix Sort
