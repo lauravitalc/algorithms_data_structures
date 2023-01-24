@@ -54,3 +54,19 @@ console.log(obj1); erro aqui
 console.log(obj2); continua booya
 
 garbage colletion
+
+----------------------------------------------------------------
+
+Single vs Double?
+
+Single: pro: simples, requer menos memória, mais rápido
+        cons: não podemos iterar para trás, e reverso
+        recomendada para quando você tem pouca memória, e quer fazer inserção e remoção.
+
+Double: pro: reverter
+        cons: complexo para implementar, requer mais memória, operações extra
+    
+----------------------------------------------------------------
+
+Pros: Fast insertion, fast deletion, ordered, flexible size
+Cons: Slow lookup, more memory

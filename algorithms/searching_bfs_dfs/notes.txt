@@ -1,0 +1,16 @@
+BFS + DFS (Searching)
+
+LINEAR SEARCH o(n)
+Ele verifica sequencialmente cada elemento da lista.
+Metódos:
+indexOf()
+findIndex()
+find()
+includes()
+Não é o mais rápido 
+
+BINARY SEARCH o(n log n)
+Quando a lista está ordenada.
+Armazenar os dados em uma árvore, em vez de uma forma linear.
+
+Portanto, este é o trato com a pesquisa binária: você divide uma lista por itens classificados e decide a partir daí se o item que procura está à esquerda ou à direita da lista.

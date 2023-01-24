@@ -1,0 +1,48 @@
+Estruturas de dados lineares - Nos permite percorrer os elementos de dados sequencialmente.
+
+Stacks 
+Queues
+
+Podem ser implementados de formas similares
+A diferença de stack e queues é como os itens são removidos.
+push(), pop()
+Só Podemos acessar o primeiro e último elemento 
+
+Trecho da aula: 
+Você verá que podemos criar coisas como pilhas e Qs que usam matrizes ou listas vinculadas, exceto que, ao contrário de matrizes e listas vinculadas, temos menos métodos ou menos ações que podemos executar em pilhas e Qs e, às vezes, é bom ter esses dados de nível superior estruturas criadas sobre as de nível inferior, como listas e matrizes vinculadas, para limitar as operações que você pode fazer nelas.
+Isso é realmente um benefício na ciência da computação.
+Ter essa capacidade limitada em uma estrutura de dados é uma vantagem, porque você pode controlar isso.
+Quem usa essa estrutura de dados executa apenas suas operações de gravação que são eficientes.
+Se você der a alguém todas as ferramentas do mundo, é muito mais difícil para elas operar do que se você der apenas duas ou três para que elas saibam exatamente o que precisam fazer.
+
+STACKS 
+
+lookup O(n)  - 
+pop    O(1)  - remover o ultimo item 
+push   O(1)  - adicionar um item
+peek   O(1)  - "ver o topo dos pratos"
+
+Podemos pensar em pratos um em cima do outro verticalmente, você só pode tocar o prato de cima.
+Para chegar ao primeiro, devemos tirar todos os outros de cima. Ao mesmo tempo que ele é o primeiro, ele é o último.
+Histórico do browser  - Você precisa voltar página por página na sequência
+Apagar letra por letra - Apagar uma por uma 
+
+
+QUEUES 
+
+lookup  O(n) -
+enqueue O(1) - push - adicionar uma pessoa na fila
+dequeue O(1) - pop - remover uma pessoa da fila - remove o PRIMEIRO item
+peek    O(1) -
+
+Primeira pessoa que chega na fila vai ser a primeira a ir a montanha russa, e assim vai.
+O primeiro da fila, é o primeiro a acessar. Chamado de FIFO.
+Um app de restaurante - O primeiro que pede uma mesa, tem prioridade
+App do uber - o primeiro que pediu tem prioridade
+
+Trecho da aula: 
+
+Por que você não deseja usar uma matriz para criar?
+Bem, a resposta é que é muito ineficiente porque estamos removendo o primeiro item da lista.
+Se você se lembrar de matrizes, se mudar alguma coisa e remover o primeiro item, precisará alterar todos esses índices.
+Portanto, criar uma fila de matrizes, embora você possa fazer isso, é realmente muito ruim.
