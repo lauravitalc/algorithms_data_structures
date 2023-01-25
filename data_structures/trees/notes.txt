@@ -9,3 +9,19 @@ Parent 1 3
 Child  2 3 4 6 7
 Leaf 2 4 6 7
 Siling  2 3 4 6 7
+
+DOM, comentários do Facebook ou Instagram, arvores genealógicas são exemplos de uma arvore.
+Abstract Syntax Tree 
+
+BINARY TREE 
+Cada nó pode ter apenas 0, 1 ou 2 nós.
+Cada filho só pode ter 1 pai.
+
+Perfect Binary Tree x Full Binary Tree
+Procurar visualização de ambos no google.
+No Perfect: a cada nivel, o número dobra.
+Metade dos nós está no fim.
+
+lookup O(log N)
+insert O(log N)
+delete O(log N)

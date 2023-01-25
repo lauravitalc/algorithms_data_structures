@@ -46,3 +46,8 @@ Por que você não deseja usar uma matriz para criar?
 Bem, a resposta é que é muito ineficiente porque estamos removendo o primeiro item da lista.
 Se você se lembrar de matrizes, se mudar alguma coisa e remover o primeiro item, precisará alterar todos esses índices.
 Portanto, criar uma fila de matrizes, embora você possa fazer isso, é realmente muito ruim.
+
+
+STACKS + QUEUES 
+pro: fast operations, fast peek, ordered
+cons: slow lookups
