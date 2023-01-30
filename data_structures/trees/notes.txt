@@ -25,3 +25,48 @@ Metade dos nós está no fim.
 lookup O(log N)
 insert O(log N)
 delete O(log N)
+
+Descobrir quantos nós: 
+2^h (height of the tree, os levels) - 1;
+log nodes = height
+
+
+Divide & Conquer - O(Log n) é como isso - Lembrar do exemplo da procura da página do livro 
+
+----------------------------------------------------------------
+
+BINARY SEARCH TREE 
+
+lookup O(log N)
+insert O(log N)
+delete O(log N)
+
+São ótimos para comparar as coisas.
+Preserva os relacionamentos, ao contrário do hash table.
+Exemplo: você quer uma pasta pai, uma subpasta ....
+
+            101
+          /    \ 
+        33       105
+      /   \     /   \
+     9    37   104  144
+
+1) Nós filhos à direita do nó raiz devem ser maior que o nó atual 
+2) Só pode ter dos nós filhos
+
+Pros: Better than O(n)
+      Ordered
+      Flexible size
+Cons: No O(1) operations 
+
+----------------------------------------------------------------
+
+BALANCED X UNBALANCED BST 
+
+A operação de um unbalanced bst é O(n), o que é pior que o balanceado O(log n)
+
+Como balancear uma arvore? AVL, Red Black
+
+----------------------------------------------------------------
+
+https://visualgo.net/en/bst?slide=1
