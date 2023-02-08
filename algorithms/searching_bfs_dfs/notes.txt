@@ -14,3 +14,15 @@ Quando a lista está ordenada.
 Armazenar os dados em uma árvore, em vez de uma forma linear.
 
 Portanto, este é o trato com a pesquisa binária: você divide uma lista por itens classificados e decide a partir daí se o item que procura está à esquerda ou à direita da lista.
+
+----------------------------------------------------------------
+
+BFS 
+pros: shortest path 
+      closer nodes 
+cons: more memory
+
+DFS
+pros: less memory
+      does path exist?
+cons: can get slow
